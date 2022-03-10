@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='dev.local/tanzu-java-web-app-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.services.demo.jg-aws.com/agerlitz/supply-chain/tanzu-java-web-app-source')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
